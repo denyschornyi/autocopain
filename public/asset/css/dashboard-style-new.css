@@ -1,0 +1,46 @@
+.rating-outer span,.rating-symbol-background{
+  color: #ffe000!important;
+  font-size: 20px;
+}
+.provider-info .rating-outer span,.provider-info .rating-symbol-background{
+  font-size: 16px;
+}
+.rate-review label{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #555;
+}
+.rate-review textarea{
+  border-radius: 0;
+  height: 150px;
+  font-size: 12px;
+  box-shadow: none!important;
+  outline: none!important;
+}
+.new-pro-rating span{
+    font-size: 12px;
+}
+
+.new-pro-rating .rating-symbol-background{
+    color: #37b38b !important;
+    line-height: 5px;
+    font-size: 12px;
+}
+
+.new-pro-rating .rating-symbol-background.glyphicon-star{
+    color: #37b38b !important;
+}
+
+.new-pro-link{
+    background-color: #37b38b;
+    color: #fff;
+    padding: 7px 5px;
+    font-size: 11px;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.new-pro-link:focus,
+.new-pro-link:hover{
+    color: #fff;
+}

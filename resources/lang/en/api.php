@@ -1,0 +1,46 @@
+<?php 
+
+return array (
+
+	'user' => [
+		'incorrect_password' => 'Mot de passe incorrect',
+		'password_updated' => 'Mot de passe mis à jour',
+		'location_updated' => 'Lieu mis à jour',
+		'profile_updated' => 'Profil mis à jour',
+		'user_not_found' => 'AutoCopain non trouvé',
+		'not_paid' => 'AutoCopain n\'a pas payé',
+	],
+	'ride' => [
+		'request_inprogress' => 'Dépannage déjà en cours',
+		'no_providers_found' => 'Aucun dépanneur trouvé',
+		'request_cancelled' => 'Votre dépannage a été annulé',
+		'already_cancelled' => 'Dépannage déjà annulé',
+		'already_onride' => 'Vous êtes déjà en dépannage',
+		'provider_rated' => 'Dépanneur évalué',
+		'request_scheduled' => 'Dépannage déjà prévu',
+		'request_already_scheduled' => 'Dépannage déjà prévu',
+	],
+	'something_went_wrong' => 'Quelque chose s\'est mal passé',
+	'logout_success' => 'Déconnecté avec succès',
+	'services_not_found' => 'Aucun dépanneur trouvé',
+	'promocode_applied' => 'Code promo appliqué',
+	'promocode_expired' => 'Code promo expiré',
+	'promocode_already_in_user' => 'Code promo déja utilisé',
+	'paid' => 'Payé',
+	'added_to_your_wallet' => '€ Ajouté au portefeuille',
+	'push' => [
+		'request_accepted' => 'Votre dépannage a été accepté par un AutoCopain',
+		'arrived' => 'Votre AutoCopain est arrivé au lieu du dépannage',
+		'startservice' => 'Votre dépannage vient de commencer',
+		'endservice' => 'Votre dépannage est terminer',
+		'incoming_request' => 'Vous avez un nouveau dépannage',
+		'added_money_to_wallet' => '€ Ajouté au portefeuille',
+		'charged_from_wallet' => ' pris sur votre portefeuille',
+		'document_verfied' => 'Vos documents sont vérifiés, vous êtes maintenant prêt à dépanner',
+		'provider_not_available' => 'Désolé mais actuellement, il y aucun dépanneur disponible.',
+		'user_cancelled' => 'L\'AutoCopain a annulé le dépannage',
+		'provider_cancelled' => 'Le dépanneur a annulé le dépannage',
+		'schedule_start' => 'Votre dépannage planifié vient de commencé',
+		'ride_scheduled' => 'Votre dépannage a été planifié',
+	],
+);
